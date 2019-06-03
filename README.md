@@ -1,7 +1,1 @@
-# Encodid (Laravel helpers for encode id (Beta)
-
----
-
-## License
-
-[MIT](LICENSE) © Jorge Vizcaya | jorgevizcayaa@gmail.com
+# Encodid (Laravel helpers for encode id) (Dev)
