@@ -45,17 +45,34 @@ if (! function_exists('encodeIds'))
 if (! function_exists('decodeId'))
 {
     /**
-     * Return the original integer number or array of integers
-     * from the encoded hash string
+     * Return the original integer number from the encoded hash string
      *
      * @param  string $string the hash string
-     * @return integer|array
+     * @return integer
      */
-      function decodeId(string $string)
+      function decodeId(string $string): int
       {
           $encodeid = new Encodeid();
 
           return $encodeid->decode($string)[0];
+      }
+}
+
+
+
+if (! function_exists('decodeIds'))
+{
+    /**
+     * Return the original integer number from the encoded hash string
+     *
+     * @param  string $string the hash string
+     * @return integer
+     */
+      function decodeIds(string $string): array
+      {
+          $encodeid = new Encodeid();
+
+          return $encodeid->decode($string);
       }
 }
 
