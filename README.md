@@ -89,7 +89,7 @@ Esto creara el archivo **encodid.php** dentro del directorio **config**, luego d
 
 **salt_string** La cadena sal que sera utilizada por la librería hashids para la codificación.
 
-**lenght** La longitud de la cadena codificada.
+**length** La longitud de la cadena codificada.
 
 **format_string** Patrón alfanumérico con los caracteres que pueden estar presente en la cadena codificada.
 

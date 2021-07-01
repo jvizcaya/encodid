@@ -15,17 +15,17 @@ return [
 
     /*
     |------------------------------------------------------
-    | Hash Lenght
+    | Hash Length
     |------------------------------------------------------
     |
-    | Set the hash lenght (integer number)
+    | Set the hash length (integer number)
     |
     | Note that output ids are only padded to fit at least
     | a certain length. It doesn't mean that they will be
     | exactly that length.
     |
     */
-    'lenght'  => 10,
+    'length'  => 16,
 
     /*
     |------------------------------------------------------

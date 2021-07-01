@@ -16,7 +16,7 @@ class Encodeid extends Hashids
       {
             parent::__construct(
               config('encodid.salt_string'),
-              config('encodid.lenght'),
+              config('encodid.length'),
               config('encodid.format_string')
             );
 
